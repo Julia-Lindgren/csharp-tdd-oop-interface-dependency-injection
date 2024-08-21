@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace tdd_oop_interface_dependency_injection.CSharp.Main
 {
-    public class Alphabet 
+    public class English : IAlphabet
     {
         public Dictionary<Char, int> getLetterScores()
         {
